@@ -1,0 +1,55 @@
+/* Last Rule Order*/
+/* Background size
+Background position- centre, you can use pixels,%(20% x axis. 20% y axis */
+/* Background-Attachment */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div{
+min-height: 100vh;
+color: green;
+font-size: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.flowers{
+  background: url(./Images/flowers.jpeg);
+  background-size:cover ;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  /*  */
+}
+
+.cake{
+  background: url(./Images/cake.jpeg);
+  background-repeat: no-repeat ;
+  background-position: center;
+  background-size: cover;
+  /* Background repeat controls the repetition of the image */
+  
+  /* background-repeat: repeat-y;-repeats vertically */
+  /* background-repeat: space- creates space betweem the repeated images */
+  /* Round: The background-image is repeated and squished or stretched to fill the space (no gaps)*/
+  /* background size: cover ,will cover the whole div space even if its a small image, With this property the image the quality will reduce 
+  background size: contain- if it will not fill the space there will be repetition*/
+  /* background-position: center; */
+/* background position property varies with the size of the image, if its a big image it will cover the whole space thus making not a big difference, while a small image there will be some noticable changes */
+/* background-position: 50% 50%; */
+
+}
+
+.pot{
+  background:url(./Images/pot.jpeg) ;
+  background-size: cover;
+  background-repeat: no-repeat ;
+  background-position: center;
+
+
+}
